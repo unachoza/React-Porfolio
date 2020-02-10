@@ -2,7 +2,11 @@ import React, { Component } from 'react';
 import CustomButton from '../../Components/CustomButton/Custom-Button.component';
 
 class Projects extends Component {
-  moveto = () => {};
+  moveto = () => { };
+  
+  
+  
+  
   render() {
     return (
       <div className="page">

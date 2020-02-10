@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import CustomButton from '../../Components/CustomButton/Custom-Button.component';
 import './Homepage.styles.css';
 
 class Homepage extends Component {
@@ -35,6 +36,11 @@ class Homepage extends Component {
     return (
       <div className="homepage">
         <div className="annimation">></div>
+        <div className="buttons">
+          <CustomButton title="Projects" />
+          <CustomButton title="About Me" />
+          <CustomButton title="Contact" />
+        </div>
       </div>
     );
   }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CustomButton from '../../Components/CustomButton/Custom-Button.component';
+
 
 class Projects extends Component {
   moveto = () => { };
@@ -10,9 +10,9 @@ class Projects extends Component {
   render() {
     return (
       <div className="page">
-      <CustomButton title="Projects"/>
-      <CustomButton title="About Me"/>
-      <CustomButton title="Contact"/>
+      <h1>Project List</h1>
+        
+     
       </div>
     );
   }

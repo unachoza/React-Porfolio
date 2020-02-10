@@ -3,9 +3,6 @@ import CustomButton from '../../Components/CustomButton/Custom-Button.component'
 import './Homepage.styles.css';
 
 class Homepage extends Component {
-  constructor(props) {
-    super(props);
-  }
   componentDidMount() {
     this.StartTextAnimation(0);
   }

@@ -1,18 +1,14 @@
 import React, { Component } from 'react';
-
+import ProjectCard from '../../Components/ProjectCard/Project-Card.component';
 
 class Projects extends Component {
-  moveto = () => { };
-  
-  
-  
-  
+  moveto = () => {};
+
   render() {
     return (
-      <div className="page">
-      <h1>Project List</h1>
-        
-     
+      <div>
+        <h1>Project List</h1>
+        <ProjectCard />
       </div>
     );
   }

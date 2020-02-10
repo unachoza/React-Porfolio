@@ -1,0 +1,44 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+h3 {
+  color: red;
+}
+
+.annimation {
+  font-size: 35px;
+  color: #27c032;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+span {
+  border-right: 0.05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 814px) and (-webkit-min-device-pixel-ratio: 3) {
+  .annimation {
+    font-size: 60px;
+    margin: 0 auto 100px auto;
+    width: 70%;
+  }
+  h3 {
+    font-size: 40px;
+color: blue
+  }
+}

@@ -1,11 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import Homepage from './Pages/Homepage/Homepage.component';
+import Projects from './Pages/Projects/Projects.component';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-     arianna lucha choza, cha cha cha chia
+      arianna lucha choza, cha cha cha chia
+      <Homepage />
+      <Projects />
     </div>
   );
 }

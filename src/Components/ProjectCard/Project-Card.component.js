@@ -18,9 +18,14 @@ const ProjectCard = ({ imgUrl }) => {
         </div>
       </a>
       <br />
-      Project Image Project Title Project Description Project Code link
+      
     </div>
   );
 };
 
 export default ProjectCard;
+
+// Project Image 
+// Project Title
+// Project Description
+// Project Code link

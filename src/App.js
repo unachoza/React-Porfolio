@@ -6,7 +6,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      arianna lucha choza, cha cha cha chia
       <Homepage />
       <Projects />
     </div>

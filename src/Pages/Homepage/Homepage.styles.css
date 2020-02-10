@@ -30,15 +30,15 @@ span {
     border-color: transparent;
   }
 }
-
+/* iphone X */
 @media only screen and (min-device-width: 375px) and (max-device-width: 814px) and (-webkit-min-device-pixel-ratio: 3) {
   .annimation {
-    font-size: 60px;
+    font-size: 35px;
     margin: 0 auto 100px auto;
     width: 70%;
   }
   h3 {
     font-size: 40px;
-color: blue
+    color: blue;
   }
 }

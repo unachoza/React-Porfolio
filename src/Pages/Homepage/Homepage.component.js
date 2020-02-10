@@ -37,9 +37,9 @@ class Homepage extends Component {
       <div className="homepage">
         <div className="annimation">></div>
         <div className="buttons">
-          <CustomButton title="Projects" />
-          <CustomButton title="About Me" />
-          <CustomButton title="Contact" />
+          <CustomButton>Projects</CustomButton>
+          <CustomButton>About Me</CustomButton>
+          <CustomButton>Contact</CustomButton>
         </div>
       </div>
     );

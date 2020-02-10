@@ -18,3 +18,23 @@
   align-items: center;
   justify-content: center;
 }
+
+/* iphone X */
+@media only screen and (min-device-width: 375px) and (max-device-width: 814px) and (-webkit-min-device-pixel-ratio: 3) {
+  .buttons {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* iphone 6 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .buttons {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+}

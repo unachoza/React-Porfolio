@@ -3,7 +3,7 @@
 // Project Description
 // Project Code link
 
-const projectData = [
+export const PROJECTS = [
   {
     id: 1,
     name: 'Susan Says',

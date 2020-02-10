@@ -1,7 +1,7 @@
 # React-Porfolio
 
 
-![](preview.gif)
+![](ezgif.com-resize.gif)
 
 
 

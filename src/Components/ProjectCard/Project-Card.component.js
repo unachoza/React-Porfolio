@@ -7,7 +7,7 @@ const ProjectCard = ({ project }) => {
     const { projectLink, imageLinks, name, description, githubLink } = project;
     return (
       <div>
-        <a href={projectLink} target="_blank">
+        <a href={projectLink} target="_blank" rel="noopener noreferrer">
           {imageLinks.length > 1 ? (
             <div className="double-img" id="cf">
               <img className="bottom project-img" src={imageLinks[0]} alt="project preview" />
@@ -21,7 +21,7 @@ const ProjectCard = ({ project }) => {
         <br />
         <h2>{name}</h2>
         <p>{description}</p>
-        <a href={githubLink} target="_blank">
+        <a href={githubLink} target="_blank" rel="noopener noreferrer">
           {' '}
           <h3>See My Code </h3>
         </a>

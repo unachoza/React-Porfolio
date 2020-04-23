@@ -6,7 +6,7 @@ const ProjectCard = ({ project }) => {
   if (project) {
     const { projectLink, imageLinks, name, description, githubLink } = project;
     return (
-      <div>
+      <div className="project-card__container">
         <a href={projectLink} target="_blank" rel="noopener noreferrer">
           {imageLinks.length > 1 ? (
             <div className="double-img" id="cf">
@@ -21,14 +21,14 @@ const ProjectCard = ({ project }) => {
         <br />
         <h2>{name}</h2>
         <p>{description}</p>
-        <a href={githubLink} target="_blank" rel="noopener noreferrer">
+        <a href={githubLink} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
           {' '}
-          <h3>See My Code </h3>
+          <div className="project-card__code-link">See My Code</div>
         </a>
       </div>
     );
   }
-  return <div>Name</div>;
+  return <div></div>;
 };
 
 export default ProjectCard;

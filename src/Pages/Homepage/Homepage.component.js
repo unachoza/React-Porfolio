@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CustomButton from '../../Components/CustomButton/Custom-Button.component';
 import './Homepage.styles.css';
+import '../../App.css'
 
 class Homepage extends Component {
   componentDidMount() {

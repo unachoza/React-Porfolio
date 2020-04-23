@@ -1,4 +1,4 @@
-.project-card {
+.project-card__container {
   min-width: 205px;
   width: 405px;
   margin-bottom: 3%;
@@ -13,16 +13,20 @@
   margin-right: auto;
 }
 
-  #cf {
-    width: 550px;
-    height: 400px;
-  }
-  .double-img {
-    width: 550px;
-    height: 400px;
-  }
-
-
+#cf {
+  width: 550px;
+  height: 400px;
+}
+.double-img {
+  width: 550px;
+  height: 400px;
+}
+.project-card__code-link {
+  color: green;
+  font-size: 15px;
+  margin: 4px 0px;
+  text-decoration: none;
+}
 
 /* ********hover change phoot****** */
 #cf {
@@ -86,7 +90,3 @@
     height: 400px;
   }
 }
-
-
-
- 

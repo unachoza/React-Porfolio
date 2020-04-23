@@ -44,7 +44,7 @@ export const PROJECTS = [
   },
   {
     id: 4,
-    name: 'Face Recognition AI<',
+    name: 'Face Recognition AI',
     projectLink: 'https://image-recognition-w.herokuapp.com/',
     imageLinks: [
       'https://res.cloudinary.com/dh41vh9dx/image/upload/v1580792102/Screen_Shot_2020-02-03_at_11.49.54_PM.png',

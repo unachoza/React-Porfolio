@@ -19,15 +19,222 @@ body {
   font-family: monospace;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* iphone X */
+@media only screen and (min-device-width: 375px) and (max-device-width: 814px) and (-webkit-min-device-pixel-ratio: 3) {
+  .annimation {
+    font-size: 40px;
+    margin: 0 auto 100px auto;
+    width: 70%;
+  }
+  h3 {
+    font-size: 40px;
+  }
+
+  #about-me {
+    margin-bottom: 400px;
+  }
+
+  .these-projects {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+  }
+  #cf {
+    width: 550px;
+    height: 400px;
+  }
+  .double-img {
+    width: 550px;
+    height: 400px;
+  }
+  #projects {
+    color: rgb(39, 192, 50);
+    font-family: monospace;
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  button {
+    width: 300px;
+    height: 180px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 40px;
+    padding-bottom: 80px;
+    text-align: justify;
+  }
+  .buttons {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  button {
+    width: 500px;
+    height: 170px;
+    font-size: 32px;
+    margin: 10px;
+  }
+  .page3 {
+    width: 75vw;
+    margin: auto;
+    margin-bottom: 600px;
+  }
+
+  #line1 {
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  #line2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+  }
+  .row2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .row1 {
+    padding: 20px;
+  }
+  #github {
+    padding-bottom: 90px;
+  }
+  #page1 {
+    margin-top: 600px;
+    margin-bottom: 600px;
+  }
+  .page3 {
+    margin-top: 450px;
+  }
+  .page4 {
+    margin-top: 1100px;
+    margin-bottom: 600px;
+  }
+  #l-padding {
+    padding-bottom: 78px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* iphone 6 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .annimation {
+    font-size: 60px;
+    margin: 0 auto 100px auto;
+    width: 70%;
   }
-  to {
-    transform: rotate(360deg);
+  #projects {
+    color: rgb(39, 192, 50);
+    font-family: monospace;
+    display: flex;
+    flex-flow: wrap;
+  }
+  .these-projects {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+  }
+  .project-img {
+    width: 550px;
+    height: 400px;
+  }
+  .typewriter h1 #second-line {
+    flex-wrap: wrap;
+    font-size: 20px;
+  }
+  .typewriter h2 {
+    flex-wrap: wrap;
+    font-size: 28px;
+  }
+  .typewriter h1 {
+    font-size: 50px;
+  }
+
+  button {
+    width: 300px;
+    height: 180px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 40px;
+    padding-bottom: 80px;
+    text-align: justify;
+  }
+  .buttons {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  button {
+    width: 500px;
+    height: 170px;
+    font-size: 32px;
+    margin: 10px;
+  }
+  .page3 {
+    width: 75vw;
+    margin: auto;
+  }
+  #line1 {
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  #line2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+  }
+  .row2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .row1 {
+    padding: 20px;
+  }
+  #l-padding {
+    padding-bottom: 78px;
+  }
+  #github {
+    padding-bottom: 90px;
+  }
+  #page1 {
+    margin-top: 600px;
+    margin-bottom: 600px;
+  }
+  .page3 {
+    margin-top: 450px;
+    margin-bottom: 600px;
+  }
+  .page4 {
+    margin-top: 1100px;
+    margin-bottom: 600px;
+  }
+  #cf {
+    width: 550px;
+    height: 400px;
   }
 }

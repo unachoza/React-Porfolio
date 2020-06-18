@@ -19,6 +19,26 @@
   justify-content: center;
 }
 
+.button:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgb(39, 192, 50, 0.4);
+  transition: all 0.2s;
+}
+.button::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+  transition: all 0.2s;
+}
+
+.button:active,
+.button:focus {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgb(39, 192, 50, 0.4);
+  transition: all 0.2s;
+}
+
 /* iphone X */
 @media only screen and (min-device-width: 375px) and (max-device-width: 814px) and (-webkit-min-device-pixel-ratio: 3) {
   .buttons {

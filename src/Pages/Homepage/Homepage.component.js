@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CustomButton from '../../Components/CustomButton/Custom-Button.component';
 import './Homepage.styles.css';
-import '../../App.css'
+import '../../App.css';
 
 class Homepage extends Component {
   componentDidMount() {
@@ -19,8 +19,8 @@ class Homepage extends Component {
     }
   };
 
-  StartTextAnimation = i => {
-    const dataText = ['> Hello World', "Welcome to Arianna Choza's Portfolio"];
+  StartTextAnimation = (i) => {
+    const dataText = ['> Hello World', "> Welcome to Arianna Choza's Portfolio"];
     if (typeof dataText[i] == 'undefined') {
       setTimeout(() => {
         this.StartTextAnimation(0);

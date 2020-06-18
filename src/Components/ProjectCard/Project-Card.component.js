@@ -23,7 +23,11 @@ const ProjectCard = ({ project }) => {
         <p>{description}</p>
         <a href={githubLink} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
           {' '}
-          <div className="project-card__code-link">See My Code</div>
+          <div className="project-footer">
+            <div className="button-code">
+              <div className="project-card__code-link">See My Code</div>
+            </div>
+          </div>
         </a>
       </div>
     );
